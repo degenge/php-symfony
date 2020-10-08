@@ -1,16 +1,32 @@
 {
-    "devDependencies": {
-        "@symfony/webpack-encore": "^0.30.0",
-        "core-js": "^3.0.0",
-        "regenerator-runtime": "^0.13.2",
-        "webpack-notifier": "^1.6.0"
-    },
-    "license": "UNLICENSED",
-    "private": true,
-    "scripts": {
-        "dev-server": "encore dev-server",
-        "dev": "encore dev",
-        "watch": "encore dev --watch",
-        "build": "encore production --progress"
-    }
+  "devDependencies": {
+    "@symfony/webpack-encore": "^0.30.0",
+    "core-js": "^3.0.0",
+    "regenerator-runtime": "^0.13.2",
+    "webpack-notifier": "^1.6.0"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "dev-server": "encore dev-server",
+    "dev": "encore dev",
+    "watch": "encore dev --watch",
+    "build": "encore production --progress"
+  },
+  "name": "php-symfony",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/degenge/php-symfony.git"
+  },
+  "author": "Gerrit Degenhardt",
+  "bugs": {
+    "url": "https://github.com/degenge/php-symfony/issues"
+  },
+  "homepage": "https://github.com/degenge/php-symfony#readme",
+  "description": ""
 }
